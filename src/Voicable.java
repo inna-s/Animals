@@ -1,3 +1,3 @@
-public interface Voice {
+public interface Voicable {
     public String Voice ();
 }

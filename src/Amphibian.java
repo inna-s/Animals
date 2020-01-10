@@ -1,8 +1,8 @@
 abstract public class Amphibian extends Animal {
-    private boolean Habitat;
+    private boolean habitatWater;
 
-    public Amphibian(boolean eukaryotes, boolean habitat) {
+    public Amphibian(boolean eukaryotes, boolean water) {
         super(eukaryotes);
-        Habitat = habitat;
+        habitatWater=water;
     }
 }

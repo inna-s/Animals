@@ -1,5 +1,5 @@
 
-abstract public class Animal implements Voice {
+abstract public class Animal implements Voicable {
     private boolean Eukaryotes;
 
 

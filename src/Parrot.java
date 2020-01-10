@@ -1,4 +1,4 @@
-public class Parrot extends Bird implements Voice, CanFly {
+public class Parrot extends Bird implements Voicable, CanFly {
     private String name;
     private String color;
 

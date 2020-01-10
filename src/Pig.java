@@ -1,4 +1,4 @@
-public class Pig extends Mammal implements Voice {
+public class Pig extends Mammal implements Voicable {
     private String name;
     private String color;
     private int numOfLegs;
