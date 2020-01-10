@@ -1,4 +1,4 @@
-abstract public class Mammal extends Animals {
+abstract public class Mammal extends Animal {
     private boolean drinkMilk;
 
     public Mammal(boolean eukaryotes, boolean drinkMilk) {
@@ -14,8 +14,6 @@ abstract public class Mammal extends Animals {
         this.drinkMilk = drinkMilk;
     }
 
-    {
 
-    }
 
 }

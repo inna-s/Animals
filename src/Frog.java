@@ -1,4 +1,4 @@
-public class Frog extends Amphibians implements Voice, Swimmable, MainFunctions {
+public class Frog extends Amphibian implements Voice, Swimmable {
     private String name;
     private String color;
     private int numOfLegs;

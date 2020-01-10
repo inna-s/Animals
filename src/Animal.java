@@ -1,9 +1,9 @@
 
-abstract public class Animals implements MainFunctions, Voice {
+abstract public class Animal implements Voice {
     private boolean Eukaryotes;
 
 
-    public Animals(boolean eukaryotes) {
+    public Animal(boolean eukaryotes) {
         this.Eukaryotes = eukaryotes;
     }
 

@@ -1,7 +1,7 @@
-abstract public class Birds extends Animals {
+abstract public class Bird extends Animal {
     private boolean Feathered;
 
-    public Birds(boolean eukaryotes, boolean feathered) {
+    public Bird(boolean eukaryotes, boolean feathered) {
         super(eukaryotes);
         Feathered = feathered;
     }
@@ -12,10 +12,6 @@ abstract public class Birds extends Animals {
 
     public void setFeathered(boolean feathered) {
         Feathered = feathered;
-    }
-
-    {
-
     }
 
 }
